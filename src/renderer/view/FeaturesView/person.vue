@@ -15,6 +15,7 @@
     name: 'message',
      data(){
       return{
+         inputText:"",
         friendslist:[
           {icon:require("../../assets/userheader.jpg"),link:"",lableText:"真真棒呀"},
           {icon:require("../../assets/01.jpg"),link:"",lableText:"小肚肚"},
@@ -30,9 +31,7 @@
     },
     components: { search ,friendslist},
     methods: {
-    //   open (link) {
-    //     this.$electron.shell.openExternal(link)
-    //   }
+    
     }
   }
 </script>
@@ -72,5 +71,47 @@
     width: 100% ;
     height: 100%;
     overflow: hidden;
+  }
+
+
+
+   #editor{
+    height: 150px;
+    background-color: white;
+    border-top: 1px solid gainsboro;
+    padding: 10px 30px;
+  }
+  .edContent{
+    height: 60px;
+    margin: 8px 0;
+  }
+  #edContent{
+      height: 100%;
+      width: 100%;
+      border: none;
+
+  }
+  .edTools{
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    justify-content: space-between;
+  }
+  .edTools ul>li,.edTools ul>li>img{
+    height: 20px;
+    list-style: none;
+    float: left;
+    margin: 0 2px;
+  }
+  .edSend{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .edSend>button{
+      padding: 5px 8px;
+      background-color: gainsboro;
+      color: grey;
+      border: none;
   }
 </style>

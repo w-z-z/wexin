@@ -60,7 +60,7 @@
   }
   .mess-digest{
       font-size: 14px;
-      width: 100px;
+      width: 98px;
       overflow: hidden;
       text-overflow:ellipsis;
       white-space: nowrap;
@@ -69,7 +69,7 @@
   }
   .mess-time{
       display: inline-block;
-      width: 60px;
+      width: 62px;
       color: gray;
       font-size: 12px;
       vertical-align: middle;

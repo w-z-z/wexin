@@ -71,7 +71,7 @@ import { truncate } from 'fs';
      height: 30px;
      display: flex;
      justify-content: flex-end;
-     background-color: #E6E5E5;
+      background: rgb(245, 245, 245);
      align-items: center;
      /* -webkit-user-select: none;
      -webkit-app-region: drag; */
